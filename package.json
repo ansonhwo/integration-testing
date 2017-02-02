@@ -1,0 +1,25 @@
+{
+  "name": "integration-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "watch": "nodemon .",
+    "test": "mocha",
+    "tdd": "mocha -w -R nyan"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.79.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1"
+  }
+}
